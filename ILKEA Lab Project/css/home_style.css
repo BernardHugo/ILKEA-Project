@@ -1,0 +1,421 @@
+body {
+    background: #85FFF0;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #312F2F;
+    height: 120px;
+    padding-left: 10px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.register-button {
+    position: absolute;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin-top: 27px;
+    right: 40px;
+    border-radius: 10%;
+}
+
+.container{
+    display: inline-block;
+    gap: 20px;
+}
+
+.banner-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.brand-container {
+    display: flex;
+    gap: 30px;
+    width: 95%;
+    margin-left: 40px;
+    max-height: auto;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 50px;
+}
+
+.box-brand {
+    width: 500px;
+    max-height: 100%;
+    background-color: #2CF971;
+    text-align: center;
+    font-size: 30;
+}
+
+.brand-image {
+    width: 100%;
+    height: 25rem;
+}
+
+.brand-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.text p {
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.box {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #CC4040;
+    text-align: center;
+    font-size: 30;
+}
+
+.category-container {
+    display: flex;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.category-product {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-height: auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.recommend-container {
+    display: flex;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.recommend-product {
+    display: grid;
+    gap: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.box-product {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #D9D9D9;
+    font-size: 24;
+    text-align: center;
+}
+
+.text-box {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.text-box p {
+    text-align: left;
+    width: 300px;
+    font-size: 18px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: 18rem;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-image2 {
+    width: 332px;
+    height: 20rem;
+}
+
+.product-image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.price p {
+    font-size: 24px;
+}
+
+.barrier {
+    width: 98%;
+    height: 10px;
+    background-color: black;
+}
+
+.overview-form {
+    max-width: 100%;
+    height: 200px;
+    background-color: #97EE28;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.overview-form {
+    font-size: 20px;
+}
+
+.footer-form {
+    max-width: 100%;
+    height: 200px;
+    background-color: #312F2F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.account-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.ILKEA-accounts {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.account {
+    display: flex;
+    margin-right: 20px;
+}
+
+.account p {
+    color: yellow;
+    font-weight: bold;
+}
+
+.foot-box {
+    float: right;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+.foot-box img {
+    max-width: 100%;
+    height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a {
+        margin: 0;
+    }
+
+    .banner-container {
+        width: 90%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .banner {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .banner img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    
+    .brand-container {
+        display: flex;
+        gap: 15px;
+        max-width: 90%;
+        margin-left: 40px;
+        max-height: auto;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 40px;
+    }
+    
+    .brand-container p {
+        font-size: 14px;
+    }
+
+    .box-brand {
+        width: 100%;
+        max-height: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .brand-image {
+        max-width: auto;
+        max-height: auto;
+    }
+    
+    .brand-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .category-container {
+        max-width: 90%;
+        margin-right: 20px;
+        margin-left: 30px;
+        flex-direction: column;
+    }
+
+    .category-product {
+        display: grid;
+        gap: 15px;
+        max-width: 100%;
+        max-height: auto;
+        grid-template-columns: auto auto;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .box h2 {
+        font-size: 20px;
+    }
+    
+    .box-product {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(245, 245, 245, 0.849);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 13rem;
+    }
+    
+    .product-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .recommend-container {
+        display: flex;
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .recommend-product {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+    
+    .text-box {
+        width: 100%;
+        padding-left: 13px;
+    }
+    
+    .text-box p {
+        text-align: left;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .product-image2 {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .product-image2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .price p {
+        font-size: 18px;
+    }
+
+    .overview-form {
+        max-width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .barrier {
+        width: 97%;
+        height: 10px;
+    }
+
+    .footer-form {
+        max-width: 100%;
+        height: 200px;
+    }
+}

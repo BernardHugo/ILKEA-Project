@@ -1,0 +1,145 @@
+body {
+    background: #85FFF0;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #312F2F;
+    height: 120px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.register-button {
+    position: absolute;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin-top: 27px;
+    right: 40px;
+    border-radius: 10%;
+}
+
+.location-container {
+    display: grid;
+    padding: 20px;
+    gap: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    grid-template-columns: auto auto auto;
+}
+
+.location-box {
+    background-color: #DDDADA;
+    padding: 20px;
+}
+
+.location-box h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.text {
+    font-size: 24px;
+    text-align: left;
+}
+
+.image-box {
+    width: 100%;
+    height: 25rem;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-form {
+    max-width: 100%;
+    height: 200px;
+    background-color: #312F2F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.account-box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.ILKEA-accounts {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.account {
+    display: flex;
+    margin-right: 20px;
+}
+
+.account p {
+    color: yellow;
+    font-weight: bold;
+}
+
+.foot-box {
+    float: right;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+.foot-box img {
+    max-width: 100%;
+    height: 200px;
+}
+
+@media screen and (max-width: 800px){
+    .navbar {
+        width: 100%;
+    }
+
+    .location-container {
+        grid-template-columns: auto auto;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .location-box h2 {
+        font-size: 24px;
+    }
+
+    .footer-form {
+        max-width: 100%;
+        height: 200px;
+    }
+}

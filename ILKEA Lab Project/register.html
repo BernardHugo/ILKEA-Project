@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="./css/register_style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src = "./images/ILKEA-logo.png" alt="logo" style = "width: 100px; height: 75px;">
+        </div>
+        <a href="home.html"><b>Beranda</b></a>
+        <a href="gallery.html"><b>Galeri</b></a>
+        <a href="about.html"><b>Mengenai kami</b></a>
+        <a href="location.html"><b>Lokasi kami</b></a>
+        <button onclick="window.location.href='register.html'" class="register-button"><b>Daftar</b></button>
+    </div>
+
+    <div class="formContainer">
+        <form action="" onsubmit="formValidation(event)">
+            <h1 style = "text-align: center;">Daftar</h1>
+            <div class="inputContainer">
+                <label for="username">Nama pengguna:</label>
+                <input type="text" id="username" placeholder="Masukkan nama pengguna anda">
+            </div>
+
+            <div class="inputContainer">
+                <label for="gender">Jenis kelamin:</label>
+                <div class="gender-select">
+                    <input type="radio" id="maleGen" value="Male">
+                    <label for = "maleGen">Laki-laki</label>
+                    <input type="radio" id="femaleGen" value="Female"> 
+                    <label for = "femaleGen">Perempuan</label>
+                </div>
+            </div>
+
+            <div class="inputContainer">
+                <label for="email">Alamat email:</label>
+                <input type="email" id="email" placeholder="Masukkan alamat email anda">
+            </div>
+
+            <div class="inputContainer">
+                <label for="address">Alamat fisik:</label> <br>
+                <textarea id="address" placeholder="Masukkan alamat fisik anda"></textarea>
+            </div>
+
+            <div class="inputContainer">
+                <div class="box-check">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Setuju dengan syarat dan ketentuan</label>
+                </div>
+            </div>
+            
+            <div class="inputContainer">
+                <div class="box-check">
+                    <input type="checkbox" id="letter">
+                    <label for="letter">Setuju untuk menerima buletin harian</label>
+                </div>
+            </div>            
+            
+            <div class = "submit-form">
+                <button type="submit" class="submit-button"><b>Daftar</b></button>
+            </div>
+        </form>
+    </div>
+    <div class = "footer-form">
+        <div class = "account-box">
+            <p style="font-weight: bold; font-size: 20px; color: yellow;">Hubungi kami:</p>
+            <div class = "ILKEA-accounts">
+                <div class = "account">
+                    <img src="./images/Instagram-logo.png" style="width: 50px; height: 40px;">
+                    <p>@ILKEA</p>
+                </div>
+                
+                <div class = "account">
+                    <img src="./images/Twitter-logo.png" style="width: 50px; height: 40px;">
+                    <p>ILKEA</p>
+                </div>
+            </div>
+            <div class = "account">
+                <img src="./images/Facebook-logo.png" style="width: 50px; height: 40px;">
+                <p>ILKEA</p>
+            </div>
+        </div>
+        <div class = "foot-box">
+            <img src="./images/ILKEA-logo.png" style="width: 150px; height: 100px;">
+            <p style="color: yellow; font-size: 20px;"><b>2023</b></p>
+            <p style="color: yellow; font-size: 20px;"><b>ILKEA</b></p>
+        </div>
+    </div>    
+    <script src="./javascript/registScript.js"></script>
+</body>
+</html>
